@@ -24,10 +24,10 @@ modules:
     repos:
       copr:
         - atim/starship
+      files:
+        - https://terra.fyralabs.com/terra.repo
     install:
       packages:
-        - micro
-        - starship
         - helix
         - htop
         - niri
@@ -46,7 +46,6 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
-          - org.gnome.Loupe
           - com.valvesoftware.Steam
           - com.visualstudio.code
           - net.lutris.Lutris
