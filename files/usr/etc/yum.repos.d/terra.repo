@@ -1,5 +1,0 @@
-[terra]
-name=Terra Repository
-baseurl=https://repos.fyralabs.com/terra$releasever
-enabled=1
-gpgcheck=0
