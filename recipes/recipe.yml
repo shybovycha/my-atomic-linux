@@ -25,19 +25,13 @@ modules:
       copr:
         - atim/starship
       files:
-        - https://terra.fyralabs.com/terra.repo
+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
     install:
       packages:
         - helix
         - htop
         - niri
         - noctalia-shell
-    remove:
-      packages:
-        # example: removing firefox (in favor of the flatpak)
-        # "firefox" is the main package, "firefox-langpacks" is a dependency
-        - firefox
-        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
     configurations:
